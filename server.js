@@ -13,6 +13,16 @@ app.get('/Login',(req, res)=>{
 })
 
 
+app.get('/FrontEndSkills',(req, res)=>{
+
+
+    const skillsObject = {
+        libraries: "React, Angular",
+        languages: "HTML, CSS, JavaScript"
+    }
+    res.json(skillsObject)
+})
+
 app.listen(process.env.PORT,()=>{
     console.log(`running Tailor on port : ${port}.`)
 })
