@@ -1,0 +1,16 @@
+{
+  "name": "tailor-backend",
+  "version": "1.0.0",
+  "description": "Tailor backend.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Swaraj Trivedi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env": "^0.0.2",
+    "express": "^4.21.0"
+  }
+}
